@@ -14,7 +14,7 @@ const Temp = () =>{
 
     useEffect( () =>{
         const fetchApi = async () =>{
-            const url = `http://api.openweathermap.org/data/2.5/weather?q=&{search}&appid={196995762cf79b3f0e3cde9b4552b69a}`
+            const url = `http://api.openweathermap.org/data/2.5/weather?q=&{search}&appid=196995762cf79b3f0e3cde9b4552b69a`
 
             const response = await fetch(url);
             const resJson = await response.json();
