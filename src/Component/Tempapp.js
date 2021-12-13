@@ -21,7 +21,7 @@ const Temp = () =>{
             setCity(resJson.main);
         }
         fetchApi();
-    }, [] )
+    }, [search] )
 
 
 
